@@ -1,0 +1,81 @@
+<Root MaxMonsterAlive1="1,55" MaxMonsterAlive4="4,55" MaxMonsterAlive6="6,55" MaxMonsterAlive8="8,55" MaxMonsterAlive10="10,55" MaxMonsterAlive14="14,100"  >
+	<FishBodyTypeAmount Small="46"  />
+	<FishBodyTypeAmount Medium="7"  />
+	<FishBodyTypeAmount Big="2"  />
+	<FishLightImg LightImgDurationTime="3" />
+	<Description Test="Monster's Probability will effect its died probability" />
+  <Fish FishGroupProbability="0" >
+    <FishGenerateFactor PlayerCount="1"  NumFishOutAtSameTime="2,2" TimeToGenerateMonsters="0.1,0.2" />
+    <FishGenerateFactor PlayerCount="10" NumFishOutAtSameTime="20,30" TimeToGenerateMonsters="0.2,0.5" />
+  </Fish>
+  <Monster Name="AnglerFish" Type="cNormalFish" ID="0" MonsterReserve="50" FishGroupFile="Fish\MonsterData\Group\Group-AnglerFish.mpdi" BodyType="Small"  Scale="0.8" GroupMovingDirectionOffsetX="-0.5,0.5" GroupMovingDirectionOffsetY="-0.5,0.5" StartOffsetTime="1" CanMissileLocked="0" MissileCradImage="AnglerFishGDW" CoinStackCardImage="AnglerFishGDW_ShowGetMoney">
+		<MonsterData Prize="10" Probability="1.5" />
+		<AI File="Fish\MonsterData\AI\AnglerFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\AnglerFish\AnglerFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\AnglerFish\AnglerFish.collision" />
+		<ShowProbability ShowProbability="35"  	FishGroupProbability="0.5" FishGroupCount="2,2" FishGroupMPDIProbability="0" SingleFishProbability="0.5"/>
+  </Monster>
+	<Monster Name="ClownFish" Type="cNormalFish" ID="3" MonsterReserve="50" FishGroupFile="Fish\MonsterData\Group\Group-ClownFish.mpdi" BodyType="Small" Scale="1" GroupMovingDirectionOffsetX="-0.4,0.4" GroupMovingDirectionOffsetY="-0.4,0.4" StartOffsetTime="0.75" CanMissileLocked="0" MissileCradImage="ClownFishGDW" CoinStackCardImage="ClownFishGDW_ShowGetMoney">
+		<MonsterData Prize="2" Probability="0.5" />
+		<AI File="Fish\MonsterData\AI\ClownFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\ClownFish\ClownFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\ClownFish\ClownFish.collision" />
+    <ShowProbability ShowProbability="241"  	FishGroupProbability="1" FishGroupCount="2,5" FishGroupMPDIProbability="0" SingleFishProbability="0"/>
+	</Monster>
+	<Monster Name="FlounderFish" Type="cNormalFish" ID="4" MonsterReserve="50" FishGroupFile="Fish\MonsterData\Group\Group-FlounderFish.mpdi" BodyType="Medium" Scale="0.85" GroupMovingDirectionOffsetX="-0.4,0.4" GroupMovingDirectionOffsetY="-0.4,0.4" StartOffsetTime="0.85" CanMissileLocked="1" MissileCradImage="FlounderFishMER" CoinStackCardImage="FlounderFishMER_ShowGetMoney">
+		<MonsterData Prize="15" Probability="1.4" />
+		<AI File="Fish\MonsterData\AI\FlounderFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\FlounderFish\FlounderFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\FlounderFish\FlounderFish.collision" />
+    <ShowProbability ShowProbability="20"  	FishGroupProbability="0.6" FishGroupCount="2,3" FishGroupMPDIProbability="0" SingleFishProbability="0.4"/>
+	</Monster>
+	<Monster Name="JellyFish" Type="cNormalFish" ID="8" MonsterReserve="50" FishGroupFile="Fish\MonsterData\Group\Group-JellyFish.mpdi" BodyType="Small" Scale="0.95" GroupMovingDirectionOffsetX="-0.6,0.6" GroupMovingDirectionOffsetY="-0.6,0.6" StartOffsetTime="0.75" CanMissileLocked="0" MissileCradImage="JellyFishGDW" CoinStackCardImage="JellyFishGDW_ShowGetMoney">
+		<MonsterData Prize="4" Probability="1.5" />
+		<AI File="Fish\MonsterData\AI\JellyFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\JellyFish\JellyFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\JellyFish\JellyFish.collision" />
+    <ShowProbability ShowProbability="108"  		FishGroupProbability="0.9" FishGroupCount="2,4" FishGroupMPDIProbability="0" SingleFishProbability="0.1" />
+	</Monster>
+	<Monster Name="KnifeFish" Type="cNormalFish" ID="9" MonsterReserve="30" FishGroupFile="Fish\MonsterData\Group\Group-KnifeFish.mpdi" BodyType="Small" Scale="0.85" GroupMovingDirectionOffsetX="-0.5,0.5" GroupMovingDirectionOffsetY="-0.5,0.5" StartOffsetTime="0.7" CanMissileLocked="0" MissileCradImage="KnifeFishGDW" CoinStackCardImage="KnifeFishGDW_ShowGetMoney">
+		<MonsterData Prize="7" Probability="1.3" />
+		<AI File="Fish\MonsterData\AI\KnifeFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\KnifeFish\KnifeFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\KnifeFish\KnifeFish.collision" />
+    <ShowProbability ShowProbability="97" 		FishGroupProbability="1" FishGroupCount="2,4" FishGroupMPDIProbability="0" SingleFishProbability="0" />
+	</Monster>
+	<Monster Name="PufferFish" Type="cNormalFish" ID="11" MonsterReserve="30" FishGroupFile="Fish\MonsterData\Group\Group-PufferFish.mpdi" BodyType="Small" Scale="0.75" GroupMovingDirectionOffsetX="-0.7,0.7" GroupMovingDirectionOffsetY="-0.7,0.7" StartOffsetTime="0.85" CanMissileLocked="0" MissileCradImage="PufferFishGDW" CoinStackCardImage="PufferFishGDW_ShowGetMoney">
+		<MonsterData Prize="8" Probability="1.5" />
+		<AI File="Fish\MonsterData\AI\PufferFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\PufferFish\PufferFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\PufferFish\PufferFish.collision" />
+    <ShowProbability ShowProbability="90" 	FishGroupProbability="0.85" FishGroupCount="2,4" FishGroupMPDIProbability="0.15" SingleFishProbability="0" />
+	</Monster>
+	<Monster Name="SquidFish" Type="cNormalFish" ID="14" MonsterReserve="50" FishGroupFile="Fish\MonsterData\Group\Group-SquidFish.mpdi" BodyType="Small" Scale="0.95" GroupMovingDirectionOffsetX="-0.1,0.1" GroupMovingDirectionOffsetY="-0.1,0.1" StartOffsetTime="0.9" CanMissileLocked="0" MissileCradImage="SquidFishGDW" CoinStackCardImage="SquidFishGDW_ShowGetMoney">
+		<MonsterData Prize="3" Probability="1.5" />
+		<AI File="Fish\MonsterData\AI\SquidFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\SquidFish\SquidFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\SquidFish\SquidFish.collision" />
+    <ShowProbability ShowProbability="90" 		FishGroupProbability="0.75" FishGroupCount="2,4" FishGroupMPDIProbability="0.25" SingleFishProbability="0" />
+	</Monster>
+	<Monster Name="StingrayFish" Type="cNormalFish" ID="15" MonsterReserve="50" BodyType="Medium" Scale="0.9" GroupMovingDirectionOffsetX="-0.2,0.2" GroupMovingDirectionOffsetY="-0.2,0.2" StartOffsetTime="1" CanMissileLocked="1" MissileCradImage="StingrayFishGDW" CoinStackCardImage="StingrayFishGDW_ShowGetMoney">
+		<MonsterData Prize="18" Probability="1.5" />
+		<AI File="Fish\MonsterData\AI\StingrayFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\StingrayFish\StingrayFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\StingrayFish\StingrayFish.collision" />
+    <ShowProbability ShowProbability="15"  	FishGroupProbability="0" FishGroupCount="1,1" FishGroupMPDIProbability="0" SingleFishProbability="1" />
+	</Monster>
+	<Monster Name="ThreeFish" Type="cNormalFish" ID="16" MonsterReserve="50" FishGroupFile="Fish\MonsterData\Group\Group-ThreeFish.mpdi" BodyType="Small" Scale="0.8" GroupMovingDirectionOffsetX="-0.6,0.6" GroupMovingDirectionOffsetY="-0.6,0.6" StartOffsetTime="0.75" CanMissileLocked="0" MissileCradImage="ThreeFishGDW" CoinStackCardImage="ThreeFishGDW_ShowGetMoney">
+		<MonsterData Prize="6" Probability="1.5" />
+		<AI File="Fish\MonsterData\AI\ThreeFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\ThreeFish\ThreeFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\ThreeFish\ThreeFish.collision" />
+    <ShowProbability ShowProbability="93"  	FishGroupProbability="1" FishGroupCount="2,4" FishGroupMPDIProbability="0" SingleFishProbability="0" />
+	</Monster>
+	<Monster Name="TurtleFish" Type="cNormalFish" ID="17" MonsterReserve="50" BodyType="Medium" Scale="1" GroupMovingDirectionOffsetX="-0.4,0.4" GroupMovingDirectionOffsetY="-0.4,0.4" StartOffsetTime="1.1" CanMissileLocked="0" MissileCradImage="TurtleFishGDW" CoinStackCardImage="TurtleFishGDW_ShowGetMoney">
+		<MonsterData Prize="9" Probability="1.5" />
+		<AI File="Fish\MonsterData\AI\TurtleFish.fai" />
+		<Animation MPDIList="Fish\Image\Fish\TurtleFish\TurtleFish.mpdi" MPDI="NormalMove" Dying="AttackRed" Hitted="AttackWhite" DiedShow="DiedShow" Struggle="Flee" />
+		<Physical CollisionFile="Fish\Image\Fish\TurtleFish\TurtleFish.collision" />
+    <ShowProbability ShowProbability="45" 	FishGroupProbability="0.5" FishGroupCount="2,2" FishGroupMPDIProbability="0" SingleFishProbability="0.5"/>
+	</Monster>
+</Root>

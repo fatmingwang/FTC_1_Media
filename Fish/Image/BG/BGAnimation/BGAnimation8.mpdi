@@ -1,0 +1,27 @@
+<MPDIList Name="BGAnimation8_mpdi" Count="1" MPDIVersion="1.1" PICount="2" ImageName="BGAnimation8.pi,BGAnimation7.pi">
+    <MultiPathDynamicImage Name="star1" PathCount="2" PlayCount="-1" TotalPlayTime="2.200000">
+        <CueToStartCurvesWithTime Name="star1" StartTime="0.000000" AnchorType="CenterCenter" Count="10" LOD="1" Loop="1">
+            <PointDataList Index="0" Position="934.00,398.00,0.00" Time="0.000000" Size="116.00,116.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star1" />
+            <PointDataList Index="1" Position="934.00,398.00,0.00" Time="0.187500" Size="116.00,116.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star2" />
+            <PointDataList Index="2" Position="934.00,398.00,0.00" Time="0.375000" Size="98.00,117.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star3" />
+            <PointDataList Index="3" Position="934.00,398.00,0.00" Time="0.562500" Size="77.00,117.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star4" />
+            <PointDataList Index="4" Position="934.00,398.00,0.00" Time="0.750000" Size="70.00,117.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star5" />
+            <PointDataList Index="5" Position="934.00,398.00,0.00" Time="0.937500" Size="77.00,117.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star4" />
+            <PointDataList Index="6" Position="934.00,398.00,0.00" Time="1.125000" Size="98.00,117.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star3" />
+            <PointDataList Index="7" Position="934.00,398.00,0.00" Time="1.312500" Size="116.00,116.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star2" />
+            <PointDataList Index="8" Position="934.00,398.00,0.00" Time="1.500000" Size="116.00,116.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star1" />
+            <PointDataList Index="9" Position="934.00,398.00,0.00" Time="2.200000" Size="116.00,116.00" Color="1.00,0.59,1.00,1.00" PIName="BGAnimation8" ImageName="star1" />
+        </CueToStartCurvesWithTime>
+        <CueToStartCurvesWithTime Name="anemone3" StartTime="0.000000" AnchorType="CenterCenter" Count="9" LOD="1" Loop="1">
+            <PointDataList Index="0" Position="129.00,49.00,0.00" Time="0.000000" Size="138.60,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12000" />
+            <PointDataList Index="1" Position="129.00,49.00,0.00" Time="0.275000" Size="139.30,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12001" />
+            <PointDataList Index="2" Position="129.00,49.00,0.00" Time="0.550000" Size="140.00,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12002" />
+            <PointDataList Index="3" Position="129.00,49.00,0.00" Time="0.825000" Size="140.00,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12003" />
+            <PointDataList Index="4" Position="129.00,49.00,0.00" Time="1.100000" Size="140.00,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12004" />
+            <PointDataList Index="5" Position="129.00,49.00,0.00" Time="1.375000" Size="140.00,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12003" />
+            <PointDataList Index="6" Position="129.00,49.00,0.00" Time="1.650000" Size="140.00,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12002" />
+            <PointDataList Index="7" Position="129.00,49.00,0.00" Time="1.925000" Size="139.30,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12001" />
+            <PointDataList Index="8" Position="129.00,49.00,0.00" Time="2.200000" Size="138.60,120.40" Color="1.00,0.75,0.89,1.00" PIName="BGAnimation7" ImageName="12000" />
+        </CueToStartCurvesWithTime>
+    </MultiPathDynamicImage>
+</MPDIList>

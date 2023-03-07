@@ -1,0 +1,4 @@
+<BG ChangeCircle="300,360" BubbleMoving="3" FishRunAwaySpeed="5" >
+	<NormaleBG Name="Fish/Image/BG/BG3.png" Probability="0"  />
+	<SpecialBG Name="Fish/Image/BG/BG4.png" Probability="100" />
+</BG>

@@ -1,0 +1,23 @@
+<root>
+	<Player ID="0">
+		<PlayerData Position="700,900,0" Rotation="0,0,0" />
+		<IO Left="Q" Right="W" Up="128" Down="129" Level="R" Fire="E"   FireRepeat="0.3" LevelUpRepeat="0.2" />
+		<Weapon RotateSpeed="1.5">
+			<WeaponLevelData>
+				<Data MPDIList="Fish/Image/PlayerUI/Cannon_0001.mpdi" IdleMPDI="CannonTube_XS_1P_IdleNormal" ShotMPDI="CannonTube_XS_1P_FireNormal" IdleSleepMPDI="CannonTower_XS_1P_IdleHaveMoney" IdleInsertMoneyMPDI= "CannonTower_XS_1P_IdleNoMoney" />
+				<Data MPDIList="Fish/Image/PlayerUI/Cannon_0001.mpdi" IdleMPDI="CannonTube_S_1P_IdleNormal" ShotMPDI="CannonTube_S_1P_FireNormal" IdleSleepMPDI="CannonTower_S_1P_IdleHaveMoney" IdleInsertMoneyMPDI= "CannonTower_S_1P_IdleNoMoney" />
+				<Data MPDIList="Fish/Image/PlayerUI/Cannon_0001.mpdi" IdleMPDI="CannonTube_M_1P_IdleNormal" ShotMPDI="CannonTube_M_1P_FireNormal" IdleSleepMPDI="CannonTower_M_1P_IdleHaveMoney" IdleInsertMoneyMPDI= "CannonTower_M_1P_IdleNoMoney" />
+				<Data MPDIList="Fish/Image/PlayerUI/Cannon_0001.mpdi" IdleMPDI="CannonTube_L_1P_IdleNormal" ShotMPDI="CannonTube_L_1P_FireNormal" IdleSleepMPDI="CannonTower_L_1P_IdleHaveMoney" IdleInsertMoneyMPDI= "CannonTower_L_1P_IdleNoMoney" />
+			</WeaponLevelData>
+			<BulletFireStatus>
+				<Level Index="1" Min="1" Max="299" AddValue="10" />
+				<Level Index="2" Min="300" Max="599" />
+				<Level Index="3" Min="600" Max="1000" />
+			</BulletFireStatus>
+		</Weapon>
+		<PlayerBody>
+			<Data MPDIList="Fish/Image/PlayerUI/PlayerUI.mpdi" MPDI="PlayerNormalBody"/>
+			<Data MPDIList="Fish/Image/PlayerUI/PlayerUI.mpdi" MPDI="PlayerEnergyBody"/>
+		</PlayerBody>
+	</Player>
+</root>

@@ -1,0 +1,8 @@
+<!-- Author:tina,Time:2013/1/29 ¤U¤È 04:26:22 -->
+<PuzzleImage OriginalNameSort="20000,20001,20002,20003,20004" ImageName="BGAnimation4.png" Count="5" GeneratePuzzleimageUnit="0">
+    <PuzzleUnit Name="20000" UV="0,0,0.2226563,0.4882813" OffsetPos="102,45" Size="57,125" OriginalSize="250,188" ShowPosInPI="0,0" />
+    <PuzzleUnit Name="20001" UV="0.2265625,0,0.4570313,0.4804688" OffsetPos="100,47" Size="59,123" OriginalSize="250,188" ShowPosInPI="58,0" />
+    <PuzzleUnit Name="20002" UV="0.4609375,0,0.6992188,0.4726563" OffsetPos="97,48" Size="61,121" OriginalSize="250,188" ShowPosInPI="118,0" />
+    <PuzzleUnit Name="20003" UV="0.703125,0,0.953125,0.4726563" OffsetPos="94,48" Size="64,121" OriginalSize="250,188" ShowPosInPI="180,0" />
+    <PuzzleUnit Name="20004" UV="0,0.4921875,0.265625,0.9609375" OffsetPos="90,48" Size="68,120" OriginalSize="250,188" ShowPosInPI="0,126" />
+</PuzzleImage>
