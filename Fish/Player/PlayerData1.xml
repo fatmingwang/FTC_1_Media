@@ -1,7 +1,7 @@
 <root>
 	<Player ID="0">
 		<PlayerData Position="360,640,0" Rotation="0,0,0" />
-		<IO Left="Q" Right="W" Up="128" Down="129" Level="R" Fire="E"   FireRepeat="0.3" LevelUpRepeat="0.2" />
+		<IO Left="A" Right="D" Up="W" Down="S" Level="G" Fire="F"   FireRepeat="0.3" LevelUpRepeat="0.2" MovingSpeed="250"/>
 		<Weapon RotateSpeed="1.5">
 			<WeaponLevelData>
 				<Data MPDIList="Fish/Image/PlayerUI/Cannon_0001.mpdi" IdleMPDI="CannonTube_XS_1P_IdleNormal" ShotMPDI="CannonTube_XS_1P_FireNormal" IdleSleepMPDI="CannonTower_XS_1P_IdleHaveMoney" IdleInsertMoneyMPDI= "CannonTower_XS_1P_IdleNoMoney" />
