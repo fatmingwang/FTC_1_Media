@@ -1,4 +1,4 @@
-<Root EachPlayerLimitCount="6">
+<Root EachPlayerLimitCount="20">
 	<CollisionFile FileName="Fish/Image/Bullet/Attack.collision" />
 
 	<PlayerBullet Index="0"  MPDIList="Fish/Image/Bullet/Bullet_0001.mpdi" NetMPDIList="Fish/Image/Bullet/FishingNet_0001.mpdi" >
